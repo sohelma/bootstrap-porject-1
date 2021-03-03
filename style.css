@@ -1,0 +1,320 @@
+*{margin:0;padding: 0;
+font-family: Sans-serif;}
+
+.logoimg{float: right;}
+.logosection{
+clip-path: polygon(0% 0%, 100% 0%, 94% 100%, 0% 100%);
+}
+.firstsection{background: #0C2B4B;}
+/* .menusection ul{} */
+.menusection ul li{display: inline-block;text-decoration: none;
+    padding: 16px 17px;
+    margin-bottom: -6px;
+    /* background: red; */
+    margin-top: 10px;
+font-size: 14px;
+margin-left: -20px;
+    }
+.menusection ul li a{color: white;
+    text-decoration: none;
+    padding: 17px 0px;
+ font-weight: bold;
+ padding: 4px 0px;
+}
+.menusection ul li a:hover{border-bottom:2px solid orange;}
+
+/* .iconsection ul{} */
+.iconsection ul li{display: inline-block;
+    text-decoration: none;
+    padding: 25px 11px;
+    /* background: skyblue; */
+  
+    margin-bottom: -22px;
+    text-decoration: none;
+}
+.iconsection ul li a{color:white;
+
+}
+.iconsection ul li a:hover{color:skyblue}
+/* .headerbutton{} */
+.headerbutton a {
+padding: 10px 29px;
+margin-top: 15px;
+color: white;
+font-weight: bold;
+font-size: 14px;
+border-radius: 0;
+}
+/* second section css start */
+.secondsection{background-image: url(images/hero-bg.jpg);
+padding-top:180px;
+padding-bottom: 380px;
+background-position: top center;
+background-repeat: no-repeat;
+text-align: center;
+font-family:Arial;
+}
+.secondsectioncontent h5{
+color:white;
+font-weight: bold;
+margin-top: 140px;
+}
+.secondsectioncontent h2{
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.secondsectioncontent a{
+    padding:12px 24px;
+    border-radius:0;
+    font-weight: bold;
+    font-size:14px;
+    color:white;  
+    margin:1%;
+}
+.first{background:#F3BD00;}
+.second{background:#0C2B4B;
+    padding:12px 24px;
+    border-radius:0;
+    font-weight: bold;
+    font-size:14px;
+    color:white;
+}
+/* 3rd section css start */
+.containsection{margin-top: 20px;}
+.containsection h6{color:orange;
+    font-weight: bold
+}
+.containsection h2{font-style: italic;
+    font-weight: bold;
+
+}
+.containsection p{text-align:justify;
+    margin-top: 19px;
+    margin-bottom: 19px;}
+
+.boxcontain h6{color:white;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.box1{
+    background: #0C2B4B;
+    padding: 35px;  
+    margin-top: -50px;
+    margin-left: 15px;
+    margin-right: -12px;
+    margin-bottom: 28px;
+}
+.box2{
+    background: #0C2B4B;
+    padding: 35px;
+    margin-left: 15px;
+    margin-right: -12px;
+    
+}
+.box3{
+    background: #0C2B4B;
+    padding: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 52px;
+}
+/* 4th section css start */
+/* .video{} */
+.videocontent{padding: 87px 37px;
+border:1px solid lightgrey;
+border-left: 0;
+padding-bottom: 3px;
+padding-left: 77px;
+background:white
+}
+
+.videocontent h6{color:orange;
+    font-weight: bold
+}
+.videocontent h2{font-style: italic;
+    font-weight: bold;
+
+}
+.videocontent p{text-align:justify;
+    margin-top: 19px;
+    margin-bottom: 19px;}
+/* 5th / FORM section css start */
+    .formtext{text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+    .formtext h2{font-style: italic;
+        font-weight: bold;
+    
+    }
+    .formtext h6{
+    color:orange;
+    font-weight: bold;}
+
+
+input[type="text"],[type="date"]{
+    width: 100%;
+    padding: 3%;
+    border: 1px solid lightgrey;
+
+}
+
+    /* .form input[type="text"],[type="Date"],[type="Email"],Select{
+    width: 29%;
+    padding: 1%;
+    margin: 1% 2%;
+        }   */
+    input[type="submit"]{
+        background:#0C2B4B; 
+        padding:12px 24px;
+        border:none;
+        font-weight: bold;
+        font-size:14px;
+        color:white;
+        width: 100%;
+        
+        } 
+
+    .fourthsection{
+        position: relative;
+        z-index: 1;
+    }
+
+    .fifthsection{background: #f5f5f5;
+    padding-top: 250px;
+    padding-bottom: 30px;
+    margin-top: -230px;
+    position:absolute;
+    z-index: -1;
+    border-radius: 93% 93% 0% 0%/77% 76%;
+}
+/* 6th / price section css start */
+.sixthsection{
+    margin-top:29%;
+    background-image: url(images/pricing-bg.jpg);
+    background-position: top center;
+    background-repeat:none;
+    background-size: cover;
+}
+.sixsectiontext{text-align: center;
+  }
+.sixsectiontext h2{font-style: italic;
+    font-weight: bold;
+    color:white;
+
+}
+.sixsectiontext h6{
+color:orange;
+font-weight: bold;
+}
+.boxprice{
+    text-align: center;
+    background:#35485c59;
+    padding:40px 25px;
+    height:auto;
+    margin:3%
+}
+.boxprice:hover{background:#0C2B4B;}
+.boxprice p{font-weight: 14px;
+    color:white
+}
+.boxprice h2{font-weight: bold;
+color:orange;
+font-size: 35px;}
+
+.boxprice h3{font-weight: bold;
+    font-size: 18px;
+    color:white;
+    padding-bottom:23px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.308);
+}
+.boxprice ul{text-align: center;
+padding:20px}
+.boxprice ul li{display:block}
+.boxprice ul a{color:white;
+    text-decoration: none;}
+    .boxbutton{padding: 5px;
+        background:#0C2B4B;
+        color:white;
+        text-decoration: none;
+        padding:15px 18px;
+        border:none;
+        font-weight: bold;
+        font-size:14px;}
+
+.boxprice:hover .boxbutton
+        {background:orange;
+        color:white}
+/* 7th / instructors section css start */
+
+ .seventhsection{margin-top:55px}
+        .seventhtext{}
+       
+        .seventhtext h2{font-style: italic;
+            font-weight: bold; 
+        
+        }
+
+        .seventhtext p{
+        color:orange;
+        font-weight: bold;
+        }
+        .seventhbutton {background:#0C2B4B;
+            padding:12px 24px;
+            border-radius:0;
+            font-weight: bold;
+            font-size:14px;
+            color:white;
+        text-decoration: none;
+    text-align: center;}
+
+    .instructor{display:flex;
+        padding:20px;  
+    }
+    .singleinstuctor{width:50%;
+    border:1px solid lightgrey;
+    margin:1%;
+    display:flex;
+    padding:50px 46px;
+}
+    .insturctorimg{margin-right: 4%;}
+    .intructortext h3{font-weight: bold;
+    font-size:18px}
+    .designation{color:orange}
+    .intructortext p{}
+    .instructoricon ul{}
+    .instructoricon ul li{display:inline-block;
+    padding:5px;}
+    .instructoricon ul li a{color:black}
+    /* footer */
+    .footer{background:#0C2B4B}
+    
+    .footermenu h3{color:white;
+    font-weight: bold;
+    font-size:18px;}
+    .footermenu{}
+    .footermenu ul{padding:10px}
+    .footermenu ul li{display:block;
+        padding:2px 0}
+    .footermenu ul li a{color:silver;
+    text-decoration: none;
+}
+
+    .footermenu{}
+    .footermenu img{padding-bottom:18px}
+    .footermenu p{color:silver}
+
+    .footercont{
+        border-bottom:1px solid grey;
+        padding-bottom:20px;
+    }
+.copyright{color:silver;
+text-align:center;
+padding-top:15px}
+
+
