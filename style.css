@@ -82,6 +82,7 @@ margin-top: 140px;
     font-weight: bold;
     font-size:14px;
     color:white;
+    margin-bottom: 70px;
 }
 /* 3rd section css start */
 .containsection{margin-top: 20px;}
@@ -112,16 +113,17 @@ margin-top: 140px;
 .box2{
     background: #0C2B4B;
     padding: 35px;
-    margin-left: 15px;
+    margin-left: 11px;
     margin-right: -12px;
-    
+    margin-top: 40px;
+
 }
 .box3{
     background: #0C2B4B;
     padding: 35px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 52px;
+    margin-left: 11px;
+    margin-right: -12px;
+    margin-top: 40px;
 }
 /* 4th section css start */
 /* .video{} */
@@ -138,6 +140,7 @@ background:white
 }
 .videocontent h2{font-style: italic;
     font-weight: bold;
+    font-size: 24px;
 
 }
 .videocontent p{text-align:justify;
@@ -155,8 +158,40 @@ background:white
     .formtext h6{
     color:orange;
     font-weight: bold;}
+    /* .form{display: flex;} */
+    
+    .form input[type="text"],[type="email"],[type="date"]{
+        width: 89%;
+        padding: 2%;
+        margin: 4% 6%;
+            }
+  .form input[type="date"]{
+        width: 89%;
+        padding: 2%;
+        margin: 4% 6%;
+            }
+    .form input[type="number"]{
+        width: 89%;
+        padding: 2%;
+        margin: 4% 6%;
+            }
 
-
+.form select{width: 89%;
+    padding: 3%;
+    margin: 4% 6%;
+        }           
+input[type="submit"]{   
+    background:#0C2B4B; 
+    padding:14px 27px;
+    border:none;
+    font-weight: bold;
+    font-size:14px;
+    color:white;
+    width: 40%;
+    margin-left: 35%;
+        
+        }
+/* 
 input[type="text"],[type="date"]{
     width: 100%;
     padding: 3%;
@@ -164,21 +199,8 @@ input[type="text"],[type="date"]{
 
 }
 
-    /* .form input[type="text"],[type="Date"],[type="Email"],Select{
-    width: 29%;
-    padding: 1%;
-    margin: 1% 2%;
-        }   */
-    input[type="submit"]{
-        background:#0C2B4B; 
-        padding:12px 24px;
-        border:none;
-        font-weight: bold;
-        font-size:14px;
-        color:white;
-        width: 100%;
         
-        } 
+      */
 
     .fourthsection{
         position: relative;
@@ -195,7 +217,7 @@ input[type="text"],[type="date"]{
 }
 /* 6th / price section css start */
 .sixthsection{
-    margin-top:29%;
+    margin-top:14%;
     background-image: url(images/pricing-bg.jpg);
     background-position: top center;
     background-repeat:none;
@@ -253,7 +275,7 @@ padding:20px}
 /* 7th / instructors section css start */
 
  .seventhsection{margin-top:55px}
-        .seventhtext{}
+        /* .seventhtext{} */
        
         .seventhtext h2{font-style: italic;
             font-weight: bold; 
@@ -273,21 +295,24 @@ padding:20px}
         text-decoration: none;
     text-align: center;}
 
-    .instructor{display:flex;
-        padding:20px;  
+    .instructor{ display: flex;
+        padding: 14px;
+        margin: 0 auto;
+        margin-left: 8%;
     }
-    .singleinstuctor{width:50%;
-    border:1px solid lightgrey;
-    margin:1%;
-    display:flex;
-    padding:50px 46px;
+    .singleinstuctor{ width: 38%;
+        border: 1px solid lightgrey;
+        margin: 1%;
+        display: flex;
+        padding: 32px 44px;
+      
 }
     .insturctorimg{margin-right: 4%;}
     .intructortext h3{font-weight: bold;
     font-size:18px}
     .designation{color:orange}
-    .intructortext p{}
-    .instructoricon ul{}
+    /* .intructortext p{}
+    .instructoricon ul{} */
     .instructoricon ul li{display:inline-block;
     padding:5px;}
     .instructoricon ul li a{color:black}
@@ -297,17 +322,19 @@ padding:20px}
     .footermenu h3{color:white;
     font-weight: bold;
     font-size:18px;}
-    .footermenu{}
+    /* .footermenu{} */
     .footermenu ul{padding:10px}
     .footermenu ul li{display:block;
         padding:2px 0}
     .footermenu ul li a{color:silver;
     text-decoration: none;
+    font-size: 15px;
 }
 
-    .footermenu{}
+    /* .footermenu{} */
     .footermenu img{padding-bottom:18px}
-    .footermenu p{color:silver}
+    .footermenu p{color:silver;
+        font-size: 15px;}
 
     .footercont{
         border-bottom:1px solid grey;
@@ -315,6 +342,7 @@ padding:20px}
     }
 .copyright{color:silver;
 text-align:center;
-padding-top:15px}
+padding: top 15px ;
+font-size: 15px;}
 
 
