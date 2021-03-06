@@ -259,7 +259,10 @@ font-size: 35px;}
 padding:20px}
 .boxprice ul li{display:block}
 .boxprice ul a{color:white;
-    text-decoration: none;}
+    text-decoration: none;
+    font-size: 15px;
+}
+
     .boxbutton{padding: 5px;
         background:#0C2B4B;
         color:white;
@@ -274,7 +277,8 @@ padding:20px}
         color:white}
 /* 7th / instructors section css start */
 
- .seventhsection{margin-top:55px}
+ .seventhsection{margin-top:55px;
+    margin-left: 56px;}
         /* .seventhtext{} */
        
         .seventhtext h2{font-style: italic;
@@ -295,17 +299,34 @@ padding:20px}
         text-decoration: none;
     text-align: center;}
 
-    .instructor{ display: flex;
-        padding: 14px;
-        margin: 0 auto;
-        margin-left: 8%;
+    .instructor{
+         
+         display: flex;
+         padding: 16px;
+         margin: 0 auto;
+          margin-left: auto;
+         margin-left: 0%;
+         width: 50%;
     }
-    .singleinstuctor{ width: 38%;
+    .singleinstuctor1{   display: flex;
+        width: 75%;
         border: 1px solid lightgrey;
-        margin: 1%;
-        display: flex;
-        padding: 32px 44px;
-      
+        margin-left: 142px;    
+}
+.singleinstuctor2{   display: flex;
+    width: 75%;
+    border: 1px solid lightgrey;
+     
+}
+.singleinstuctor3{   display: flex;
+    width: 75%;
+    border: 1px solid lightgrey;
+    margin-left: 142px;
+}
+.singleinstuctor4{   display: flex;
+    width: 75%;
+    border: 1px solid lightgrey;
+  
 }
     .insturctorimg{margin-right: 4%;}
     .intructortext h3{font-weight: bold;
@@ -344,5 +365,5 @@ padding:20px}
 text-align:center;
 padding: top 15px ;
 font-size: 15px;}
-
+/* .col-sm-12{display:flex} */
 
